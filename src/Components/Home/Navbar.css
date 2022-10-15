@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --light : #F1F6F9;
+    --medium : #145374;
+    --dark : #14274E;
+    --text : #393E46;
+  }
+.navbar-comp{
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+.navbar-title{
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.carousel-images{
+    margin: auto;
+    background-color: var(--light);
+    height: 70vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.car-image{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.search-button:hover{
+    background-color: var(--dark) !important;
+    color: var(--light);
+}
+.toggle-button-on{
+    display: block;
+    font-size: 3rem;
+    background-color: var(--text);
+    border-radius: 50%;
+}
+.toggle-button-off{
+    display: none;
+    font-size: 3rem;
+    color: white;
+    background-color: var(--text);
+    border-radius: 50%;
+}
+
+.delight-logo{
+    width: 100px;
+    margin: -40px 50px;
+    position: relative;
+    top: 5px;
+}
+
+@media screen and (max-width : 1000px) {
+    .navbar-title{
+        margin: auto;
+        position: relative;
+        transform: translate(20px);
+    }
+}

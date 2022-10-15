@@ -1,0 +1,82 @@
+:root {
+    --light : #F1F6F9;
+    --medium : #145374;
+    --dark : #14274E;
+    --text : #393E46;
+  }
+.comments-container{
+    width: 100vw;
+    height: 450px;
+    margin-top: 20px;
+    /* background-color: var(--light); */
+}
+.comment-section{
+    display: grid;
+    grid-template-columns: 0.4fr 1.6fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+.customer-review{
+    text-align: center;
+    color: var(--text);
+    font-size: 1.4rem;
+    margin: 20px;
+    color: var(--light);
+    background-color: var(--dark);
+}
+.comment-inputs{
+    width: 100%;
+}
+.rate-options{
+    width: 72%;
+    border-radius: 2px;
+}
+.name-input{
+    width: 200px;
+    padding: 7px;
+    outline: none;
+    border-radius: 3px;
+    border: 0.2px solid var(#837575);
+}
+.review-input{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background: none;
+    border-radius: 3px;
+    text-align: start;
+}
+.labels{
+    font-size: 1.2rem;
+    /* margin: 10px; */
+    text-align: start;
+    display: flex;
+    margin: 5px;
+}
+.user-review-section{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--text);
+    margin: 10px auto;
+    overflow-y: scroll;
+}
+.submit-button{
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+.submit-button:hover{
+    background-color: var(--light);
+    color: var(--dark);
+    font-size: 1.1rem;
+}
+.review-card{
+    border: 1px solid var(--medium);
+    box-shadow: 1px 1px 5px var(--dark);
+    margin: 3px;
+}
+.review-card span{
+    margin: 5px;
+}

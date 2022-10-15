@@ -1,0 +1,52 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+:root {
+  --light : #F1F6F9;
+  --medium : #145374;
+  --dark : #14274E;
+  --text : #393E46;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: auto;
+}
+.online-orders{
+  background-color: var(--dark);
+  padding: 10px;
+  color: var(--light);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 0 0;
+}
+.shopping-cart{
+  width: 45px;
+  padding: 5px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: var(--dark);
+  border-radius: 50%;
+  color: var(--light);
+  z-index: 100;
+}
+.item-counter{
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  padding: 2px;
+  font-size: 1.1rem;
+  z-index: 100;
+  /* border-radius: 50%; */
+  
+}
+.cart{
+
+  letter-spacing: 2px;
+}
+.cart:hover{
+    display: block;
+}
+

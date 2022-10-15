@@ -1,0 +1,103 @@
+:root {
+    --light : #F1F6F9;
+    --medium : #145374;
+    --dark : #14274E;
+    --text : #393E46;
+  }
+.all-orders{
+    display: flex;
+    overflow: scroll;
+}
+.all-orders::-webkit-scrollbar {
+    display: none;
+  }
+.order-title{
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.orders-section{
+    /* background-color: var(--light); */
+}
+.order-card{
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: 0.4s ease-in-out;
+}
+.order-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -8px;
+}
+.prices .item-price{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.discounted-item-price{
+    font-size: 1.2rem;
+}
+.order-image{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin: 7px;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.order-image:hover{
+    transform: scale(105%);
+}
+.order-name{
+    color: var(--medium);
+}
+.buy-button{
+    padding: 2px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: transparent;
+    border : 2px solid var(--dark);
+    color: var(--dark);
+    margin: 10px 20px;
+}
+.buy-button:hover{
+    background-color: var(--dark);
+    color: var(--light);
+}
+.add-button{
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--medium);
+    margin: 10px 10px;
+    background: transparent;
+    border: 2px solid var(--dark);
+}
+.added-to-cart{
+    padding: 2px;
+    border-radius: 5px;
+    font-size: rem;
+    color: var(--light);
+    margin: 10px 20px;
+    background: var(--dark);
+    border : 2px solid var(--medium);
+}
+.add-button:hover{
+    background-color: var(--medium);
+    color: var(--light);
+}
+.buttons{
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
