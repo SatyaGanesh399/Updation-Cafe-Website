@@ -39,7 +39,8 @@
     margin-right: 5px;
 }
 .discounted-item-price{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    
 }
 .order-image{
     object-fit: cover;

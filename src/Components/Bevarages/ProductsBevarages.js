@@ -20,9 +20,9 @@ function ProductsBevarages(props) {
       <h4 className="order-name">{props.name}</h4>
       <div className="prices">
         <p className="props-price">
-          Price :<strike>{props.price}</strike>
+          Price : $<strike>{props.price} </strike>
         </p>
-        <p className="discounted-props-price">{props.discountedPrice}</p>
+        <p className="discounted-item-price"> ${props.discountedPrice}</p>
       </div>
       <div className="buttons">
         <button type="button" className="buy-button">
